@@ -43,7 +43,26 @@ Where is:
 - fontSize - Font size in points of the labels
 - fontColour - Font colour of the labels
 - dataPosition - position of the bar labels could be top, bottom or centre
-#### A Feature list of your library (options it supports, etc)
+#### A Feature's
+1. Background Colour Control
+2. Automatic Scale Lines
+3. Automatic Identify Simple Bars and Stack Bars Graphs
+4. Values positioning preferences
+5. Automatic bars distribution according with the array's size
+
 #### A list of known issues / bugs
+1. Until this realease, the function do not accept a redraw when it call twice drawBarChart();.
+2. In a stack bar graph, the data must be in crescent order or bar colors will overide others.
+
 #### A list of features that are on the roadmap but haven't been implemented yet
-#### A list of all the external resources (tutorials, docs, example code, etc) that you encountered and used to help you create this library
+It miss a description of individual data on stack bar graph.
+
+#### A list of all the external resources
+
+Most of the resources were found:
+
+https://www.w3schools.com
+
+https://api.jquery.com/
+
+https://github.com/
